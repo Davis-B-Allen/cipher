@@ -1,0 +1,128 @@
+.red {
+	color:red;
+}
+
+.green {
+	color:green;
+}
+
+.strike {
+	text-decoration:line-through;
+}
+
+/**********************/
+
+.dealDetailPanel {
+	margin:10px;
+	padding:10px;
+}
+
+.dealDetailPanel div {
+	margin:10px;
+}
+
+.dealDetailPanel .croppedImg {
+	text-align:center;
+}
+
+.dealDetailPanel .croppedImg img {
+	width:200px;
+}
+
+.dealDetailPanel .croppedImg .dealname {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.dealDetailPanel .origPrice {
+}
+
+.dealDetailPanel .finalPrice {
+}
+
+.dealDetailPanel .promo {
+}
+
+
+.dealDetailPanel .expiration {
+}
+
+.dealDetailPanel .description {
+	font-style:italic;
+}
+
+.dealDetailPanel .inctructions {
+}
+
+.dealDetailPanel .dealBarcode img {
+	width:200px;
+}
+
+.dealDetailPanel .consumerBarcode img {
+	width:200px;
+}
+
+
+/**********************/
+
+.dealLineItem {
+	overflow:auto
+}
+
+.dealLineItem img{
+	float:left;
+	width:100px;
+	margin-right:10px;
+}
+
+/**********************/
+
+.providerDetailPanel {
+	overflow:auto
+}
+
+.providerDetailPanel .croppedImg{
+	text-align:center;
+	font-size:24px;
+}
+
+.providerDetailPanel img {
+	width:200px;
+}
+
+.providerDetailPanel div {
+	margin:10px
+}
+
+.providerDetailPanel .description {
+	color:blue;
+	font-style:italic;
+}
+
+.providerDetailPanel .address {
+}
+
+.providerDetailPanel .phonenumber {
+}
+
+.providerDetailPanel .email {
+}
+
+.providerDetailPanel .map {
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

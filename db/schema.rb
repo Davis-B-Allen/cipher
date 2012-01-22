@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120122052506) do
+ActiveRecord::Schema.define(:version => 20120122190129) do
 
   create_table "locations", :force => true do |t|
     t.string   "borough_code"
@@ -27,6 +27,8 @@ ActiveRecord::Schema.define(:version => 20120122052506) do
     t.float    "to_lat"
     t.float    "to_lon"
     t.float    "length"
+    t.boolean  "demo",          :default => false, :null => false
+    t.float    "heading"
   end
 
   create_table "signs", :force => true do |t|
@@ -38,6 +40,8 @@ ActiveRecord::Schema.define(:version => 20120122052506) do
     t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.float    "lat"
+    t.float    "lng"
   end
 
 end

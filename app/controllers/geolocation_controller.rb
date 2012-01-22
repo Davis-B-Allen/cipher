@@ -80,4 +80,20 @@ class GeolocationController < ApplicationController
     
   end
 
+  def sign_lat_lons
+    signs = Location.demoables.map{ |l| l.signs }
+    signs.flatten!
+    i=1
+    signs.map! do |s|
+      i = i + 1
+      if(i % 2 == 0) 
+        { "la" => s.lat, "lo" => s.lng, "color" => "red" }
+      else
+        { "la" => s.lat, "lo" => s.lng, "color" => "green" }
+      end  
+      
+    end
+    render :json => signs
+  end
+
 end

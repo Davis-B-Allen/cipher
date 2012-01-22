@@ -1,4 +1,6 @@
 Cipher::Application.routes.draw do
+  get "geolocation/fetch_block"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

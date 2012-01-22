@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  borough_code: MyString
+  status_order: MyString
+  sign_sequence: 
+  curb_distance: 
+  arrow_cardinal: MyString
+  description: MyString
+
+two:
+  borough_code: MyString
+  status_order: MyString
+  sign_sequence: 
+  curb_distance: 
+  arrow_cardinal: MyString
+  description: MyString

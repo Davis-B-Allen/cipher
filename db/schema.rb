@@ -11,6 +11,33 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20120122052506) do
+
+  create_table "locations", :force => true do |t|
+    t.string   "borough_code"
+    t.string   "status_order"
+    t.string   "main_street"
+    t.string   "from_street"
+    t.string   "to_street"
+    t.string   "cardinal_side"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.float    "from_lat"
+    t.float    "from_lon"
+    t.float    "to_lat"
+    t.float    "to_lon"
+    t.float    "length"
+  end
+
+  create_table "signs", :force => true do |t|
+    t.string   "borough_code"
+    t.string   "status_order"
+    t.integer  "sign_sequence"
+    t.integer  "curb_distance"
+    t.string   "arrow_cardinal"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

@@ -13,6 +13,7 @@ gem 'fastercsv'
 gem 'taps'
 gem 'httparty'
 gem 'geokit'
+gem 'pg'
 
 
 # Gems used only for assets and not required
